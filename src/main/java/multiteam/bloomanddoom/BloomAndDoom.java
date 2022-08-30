@@ -1,5 +1,6 @@
 package multiteam.bloomanddoom;
 
+import multiteam.bloomanddoom.main.Registration;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,6 +15,8 @@ public class BloomAndDoom {
     public static final String MODID = "bloom_and_doom";
 
     public BloomAndDoom() {
+        Registration.register();
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
