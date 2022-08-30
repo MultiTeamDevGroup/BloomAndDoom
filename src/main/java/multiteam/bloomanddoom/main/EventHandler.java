@@ -27,7 +27,7 @@ public class EventHandler {
                 if(level.isClientSide){ //then we A, spawn particles on clientside
                     //TODO play bonemeal particles in world
                 }else{ //B, grow flower aka place flower stem and petal blocks on server side
-                    flower.growAt(event.getPos(), (ServerLevel)level);
+                    flower.growAt(event.getPos(), (ServerLevel)level, GrowableFlower.GrowMethod.DROP_IF_OCCUPIED);
                 }
             }
         }

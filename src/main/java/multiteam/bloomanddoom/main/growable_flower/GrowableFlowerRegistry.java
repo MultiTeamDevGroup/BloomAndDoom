@@ -332,6 +332,44 @@ public class GrowableFlowerRegistry {
                         )
                 )
         );
+        Registration.GROWABLE_FLOWERS.add(
+                new GrowableFlower(
+                        Blocks.PINK_TULIP,
+                        List.of(
+                                block(Blocks.LIME_CONCRETE, 0d, 0d, 0d),
+                                block(Blocks.LIME_CONCRETE, 0d, 1d, 0d),
+                                block(Blocks.LIME_CONCRETE, 0d, 2d, 0d),
+                                block(Blocks.LIME_CONCRETE, 0d, 3d, 0d),
+                                block(Blocks.LIME_CONCRETE, 1d, 1d, 0d),
+                                block(Blocks.LIME_CONCRETE, -1d, 1d, -1d),
+                                block(Blocks.LIME_CONCRETE, -2d, 2d, -1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 3d, 0d),
+                                block(Blocks.PINK_CONCRETE, 1d, 3d, 0d),
+                                block(Blocks.PINK_CONCRETE, 0d, 3d, -1d),
+                                block(Blocks.PINK_CONCRETE, 0d, 3d, 1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 4d, 0d),
+                                block(Blocks.PINK_CONCRETE, 1d, 4d, 0d),
+                                block(Blocks.PINK_CONCRETE, 0d, 4d, -1d),
+                                block(Blocks.PINK_CONCRETE, 0d, 4d, 1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 4d, -1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 4d, 1d),
+                                block(Blocks.PINK_CONCRETE, 1d, 4d, -1d),
+                                block(Blocks.PINK_CONCRETE, 1d, 4d, 1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 5d, 0d),
+                                block(Blocks.PINK_CONCRETE, 1d, 5d, 0d),
+                                block(Blocks.PINK_CONCRETE, 0d, 5d, -1d),
+                                block(Blocks.PINK_CONCRETE, 0d, 5d, 1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 5d, -1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 5d, 1d),
+                                block(Blocks.PINK_CONCRETE, 1d, 5d, -1d),
+                                block(Blocks.PINK_CONCRETE, 1d, 5d, 1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 6d, -1d),
+                                block(Blocks.PINK_CONCRETE, -1d, 6d, 1d),
+                                block(Blocks.PINK_CONCRETE, 1d, 6d, -1d),
+                                block(Blocks.PINK_CONCRETE, 1d, 6d, 1d)
+                        )
+                )
+        );
     }
 
     public static GrowableFlower doesRegistryContainThisFlower(Block flower){
