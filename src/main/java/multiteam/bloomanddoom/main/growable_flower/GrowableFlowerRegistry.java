@@ -114,7 +114,8 @@ public class GrowableFlowerRegistry {
                                 block(Blocks.LIGHT_BLUE_CONCRETE, 2d, 5d, -2d)
                         )
                 )
-        );Registration.GROWABLE_FLOWERS.add(
+        );
+        Registration.GROWABLE_FLOWERS.add(
                 new GrowableFlower(
                         Blocks.ALLIUM,
                         List.of(
@@ -145,6 +146,37 @@ public class GrowableFlowerRegistry {
                                 block(Blocks.MAGENTA_CONCRETE, 0d, 5d, -1d),
                                 block(Blocks.MAGENTA_CONCRETE, 0d, 5d, 0d),
                                 block(Blocks.MAGENTA_CONCRETE, 0d, 6d, 0d)
+                        )
+                )
+        );
+        Registration.GROWABLE_FLOWERS.add(
+                new GrowableFlower(
+                        Blocks.AZURE_BLUET,
+                        List.of(
+                                block(Blocks.LIME_CONCRETE, 0d, 0d, 0d),
+                                block(Blocks.LIME_CONCRETE, 0d, 1d, 0d),
+                                block(Blocks.LIME_CONCRETE, 0d, 2d, 0d),
+                                block(Blocks.LIME_CONCRETE, 0d, 0d, 1d),
+                                block(Blocks.LIME_CONCRETE, 0d, 0d, -1d),
+                                block(Blocks.LIME_CONCRETE, -1d, 0d, 0d),
+                                block(Blocks.LIME_CONCRETE, 1d, 0d, 0d),
+                                block(Blocks.LIME_CONCRETE, -1d, 1d, 0d),
+                                block(Blocks.LIME_CONCRETE, -1d, 1d, -1d),
+                                block(Blocks.LIME_CONCRETE, 0d, 1d, -1d),
+                                block(Blocks.LIME_CONCRETE, 1d, 1d, 1d),
+                                block(Blocks.LIME_CONCRETE, 0d, 2d, 1d),
+                                block(Blocks.LIME_CONCRETE, 1d, 2d, -1d),
+                                block(Blocks.WHITE_CONCRETE, 0d, 1d, 1d),
+                                block(Blocks.WHITE_CONCRETE, -2d, 1d, 1d),
+                                block(Blocks.WHITE_CONCRETE, -2d, 1d, 0d),
+                                block(Blocks.WHITE_CONCRETE, 2d, 1d, 1d),
+                                block(Blocks.WHITE_CONCRETE, 1d, 2d, 1d),
+                                block(Blocks.WHITE_CONCRETE, -1d, 2d, 0d),
+                                block(Blocks.WHITE_CONCRETE, 0d, 3d, 0d),
+                                block(Blocks.WHITE_CONCRETE, 1d, 1d, 0d),
+                                block(Blocks.WHITE_CONCRETE, 1d, 1d, -1d),
+                                block(Blocks.WHITE_CONCRETE, 0d, 2d, -1d),
+                                block(Blocks.WHITE_CONCRETE, 0d, 1d, -2d)
                         )
                 )
         );
